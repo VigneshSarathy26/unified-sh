@@ -1,8 +1,8 @@
 # unified-sh 🐚
 
-> A unified collection of **105+ shell scripts** covering everything from beginner-friendly basics to advanced DevOps automation — Bash & Shell scripting in one place.
+> A unified collection of **200+ shell scripts** covering everything from beginner-friendly basics to advanced DevOps automation — Bash & Shell scripting in one place.
 
-![Scripts](https://img.shields.io/badge/scripts-105%2B-blue?style=flat-square)
+![Scripts](https://img.shields.io/badge/scripts-200%2B-blue?style=flat-square)
 ![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)
 ![Shell](https://img.shields.io/badge/shell-bash%20%2F%20sh-orange?style=flat-square)
 
@@ -18,6 +18,11 @@
   - [🐳 Docker (76–83)](#-docker-7683)
   - [🌐 Networking & System (84–91)](#-networking--system-8491)
   - [☸️ Kubernetes (92–105)](#️-kubernetes-92105)
+  - [🏗️ CI/CD & Jenkins (106–107)](#️-cicd--jenkins-106107)
+  - [🛡️ Security & Hardening (108–141)](#️-security--hardening-108141)
+  - [📜 Log Management & Auditing (142–161)](#-log-management--auditing-142161)
+  - [🚀 Automation & Deployment (162–190)](#-automation--deployment-162190)
+  - [📈 Performance & Analytics (191–204)](#-performance--analytics-191204)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -176,6 +181,140 @@
 | 103 | [103-k8sconfigandsecretupdater](./103-k8sconfigandsecretupdater) | Update Kubernetes ConfigMaps and Secrets in bulk |
 | 104 | [104-k8sorphanresourcedetctor](./104-k8sorphanresourcedetctor) | Detect orphaned / unused Kubernetes resources |
 | 105 | [105-k8snamespacecleanup](./105-k8snamespacecleanup) | Clean up Kubernetes namespaces and their resources |
+
+---
+
+### 🏗️ CI/CD & Jenkins (106–107)
+
+| # | Folder | Description |
+|---|--------|-------------|
+| 106 | [106-jenkins-dependency](./106-jenkins-dependency) | Jenkins dependency |
+| 107 | [107-Jenkins-installation](./107-Jenkins-installation) | Jenkins installation |
+
+---
+
+### 🛡️ Security & Hardening (108–141)
+
+| # | Folder | Description |
+|---|--------|-------------|
+| 108 | [108-automated-security-updates](./108-automated-security-updates) | Apply security updates automatically. |
+| 109 | [109-open-port-and-service-checker](./109-open-port-and-service-checker) | Check for open ports and unauthorized services. |
+| 110 | [110-ssh-login-monitoring](./110-ssh-login-monitoring) | Monitor SSH login attempts and alert for suspicious activity. |
+| 111 | [111-system-log-rotation-script](./111-system-log-rotation-script) | Rotate system logs at regular intervals. |
+| 112 | [112-firewall-rule-automation](./112-firewall-rule-automation) | Automate the setup of firewalls with specific rules. |
+| 113 | [113-account-disable-on-failed-login](./113-account-disable-on-failed-login) | Automatically disable accounts after X failed login attempts. |
+| 114 | [114-system-integrity-check-aide](./114-system-integrity-check-aide) | Check system integrity with AIDE or Tripwire. |
+| 115 | [115-sensitive-log-cleanup-automation](./115-sensitive-log-cleanup-automation) | Automate the cleanup of sensitive logs and files after a certain period. |
+| 116 | [116-critical-file-change-watcher](./116-critical-file-change-watcher) | Check for unauthorized changes to critical files. |
+| 117 | [117-vulnerability-monitoring-alerting](./117-vulnerability-monitoring-alerting) | Monitor system vulnerabilities and send alerts. |
+| 118 | [118-password-change-enforcement-cron](./118-password-change-enforcement-cron) | Enforce regular password changes for users. |
+| 119 | [119-ssl-certificate-management-automation](./119-ssl-certificate-management-automation) | Automate the creation and management of SSL certificates. |
+| 120 | [120-rootkit-detection-and-removal](./120-rootkit-detection-and-removal) | Detect and remove rootkits. |
+| 121 | [121-malware-scanning-clamav](./121-malware-scanning-clamav) | Automated scan for malware using ClamAV. |
+| 122 | [122-sensitive-file-encryption-automation](./122-sensitive-file-encryption-automation) | Automate encryption for sensitive files in a directory. |
+| 123 | [123-system-file-access-restriction](./123-system-file-access-restriction) | Restrict access to system files and directories. |
+| 124 | [124-file-permission-change-monitor](./124-file-permission-change-monitor) | Monitor file permissions for changes and generate alerts. |
+| 125 | [125-strong-encryption-protocol-enforcer](./125-strong-encryption-protocol-enforcer) | Enforce the use of strong encryption protocols. |
+| 126 | [126-ssh-key-distribution-automation](./126-ssh-key-distribution-automation) | Automate the distribution of SSH keys for users across multiple servers. |
+| 127 | [127-security-breach-log-scanner](./127-security-breach-log-scanner) | Check for security breaches by scanning logs. |
+| 128 | [128-weak-password-identification](./128-weak-password-identification) | Identify weak passwords and notify users. |
+| 129 | [129-expired-encryption-key-cleanup](./129-expired-encryption-key-cleanup) | Automate the cleanup of unused and expired encryption keys. |
+| 130 | [130-user-group-membership-monitor](./130-user-group-membership-monitor) | Monitor and enforce user group memberships. |
+| 131 | [131-role-based-file-access-prevention](./131-role-based-file-access-prevention) | Prevent access to certain files based on user roles. |
+| 132 | [132-user-account-activity-monitor](./132-user-account-activity-monitor) | Monitor the creation and deletion of user accounts and report changes. |
+| 133 | [133-security-auditing-vulnerability-check](./133-security-auditing-vulnerability-check) | Set up a security auditing system to regularly check for vulnerabilities. |
+| 134 | [134-sudoers-file-change-detector](./134-sudoers-file-change-detector) | Detect changes in the sudoers file and alert the admin. |
+| 135 | [135-unused-service-disabling-automation](./135-unused-service-disabling-automation) | Automate the process of disabling unused services. |
+| 136 | [136-ssh-key-and-cert-integrity-monitor](./136-ssh-key-and-cert-integrity-monitor) | Monitor the integrity of SSH keys and certificates. |
+| 137 | [137-inactive-account-locking-cron](./137-inactive-account-locking-cron) | Automatically lock accounts after a period of inactivity. |
+| 138 | [138-automated-ssh-key-rotation](./138-automated-ssh-key-rotation) | Implement an automated process to rotate SSH keys on a regular basis. |
+| 139 | [139-unauthorized-ssh-key-access-alert](./139-unauthorized-ssh-key-access-alert) | Monitor and alert on unauthorized SSH key access attempts. |
+| 140 | [140-password-policy-compliance-script](./140-password-policy-compliance-script) | Ensure all user passwords comply with security policies. |
+| 141 | [141-admin-command-logging-automation](./141-admin-command-logging-automation) | Automate the logging of administrative commands executed on the system. |
+
+---
+
+### 📜 Log Management & Auditing (142–161)
+
+| # | Folder | Description |
+|---|--------|-------------|
+| 142 | [142-system-log-rotation-setup](./142-system-log-rotation-setup) | Set up automatic log rotation for system logs. |
+| 143 | [143-remote-server-log-collector](./143-remote-server-log-collector) | Write a script to collect logs from remote servers. |
+| 144 | [144-log-summary-generation-automation](./144-log-summary-generation-automation) | Automate the generation of log summaries. |
+| 145 | [145-threshold-based-email-logs](./145-threshold-based-email-logs) | Set up a cron job to email logs when certain thresholds are met. |
+| 146 | [146-log-error-parser-searcher](./146-log-error-parser-searcher) | Create a script to parse and search logs for specific errors. |
+| 147 | [147-old-log-file-archiver](./147-old-log-file-archiver) | Write a script to archive log files older than a certain date. |
+| 148 | [148-old-log-file-cleanup](./148-old-log-file-cleanup) | Automate the cleanup of old log files. |
+| 149 | [149-email-specific-log-entries](./149-email-specific-log-entries) | Create a script to send specific log entries via email. |
+| 150 | [150-centralized-log-management-setup](./150-centralized-log-management-setup) | Set up a centralized log management system. |
+| 151 | [151-security-event-log-searcher](./151-security-event-log-searcher) | Write a script to search log files for security-related events. |
+| 152 | [152-unusual-activity-log-monitor](./152-unusual-activity-log-monitor) | Monitor system logs for any unusual activities. |
+| 153 | [153-weekly-log-analysis-summary](./153-weekly-log-analysis-summary) | Create a script to analyze and summarize logs on a weekly basis. |
+| 154 | [154-pattern-detection-log-alerter](./154-pattern-detection-log-alerter) | Set up a script to alert when certain log file patterns are detected. |
+| 155 | [155-application-log-archiving](./155-application-log-archiving) | Automate the archiving of application logs for future reference. |
+| 156 | [156-application-log-rotation-cron](./156-application-log-rotation-cron) | Set up a cron job to rotate application logs. |
+| 157 | [157-http-request-log-parser](./157-http-request-log-parser) | Write a script to parse Apache or Nginx logs for unusual HTTP requests. |
+| 158 | [158-server-access-log-analyzer](./158-server-access-log-analyzer) | Automate the collection and analysis of server access logs. |
+| 159 | [159-daily-log-report-generator](./159-daily-log-report-generator) | Set up a script to generate a daily log file report. |
+| 160 | [160-log-compression-before-archiving](./160-log-compression-before-archiving) | Write a script to compress logs before archiving. |
+| 161 | [161-daily-log-summary-email-cron](./161-daily-log-summary-email-cron) | Set up a cron job to email log summaries daily. |
+
+---
+
+### 🚀 Automation & Deployment (162–190)
+
+| # | Folder | Description |
+|---|--------|-------------|
+| 162 | [162-remote-app-deployment-automation](./162-remote-app-deployment-automation) | Set up a script to automate the deployment of applications to remote servers. |
+| 163 | [163-software-test-deploy-script](./163-software-test-deploy-script) | Write a script to automate software testing and deployment. |
+| 164 | [164-server-provisioning-config-mgmt](./164-server-provisioning-config-mgmt) | Automate server provisioning and configuration management. |
+| 165 | [165-multi-system-config-deployer](./165-multi-system-config-deployer) | Create a script to deploy configuration changes to multiple systems. |
+| 166 | [166-multi-system-patch-updater](./166-multi-system-patch-updater) | Automate server patching and updates across multiple systems. |
+| 167 | [167-rolling-config-change-system](./167-rolling-config-change-system) | Set up a system for rolling out system configuration changes automatically. |
+| 168 | [168-auto-scaling-resource-monitor](./168-auto-scaling-resource-monitor) | Write a script to monitor servers and automatically scale resources when needed. |
+| 169 | [169-app-db-backup-restoration](./169-app-db-backup-restoration) | Automate the backup and restoration of application databases. |
+| 170 | [170-multi-system-docker-deployer](./170-multi-system-docker-deployer) | Set up a script to deploy Docker containers across multiple systems. |
+| 171 | [171-daily-db-backup-scheduler](./171-daily-db-backup-scheduler) | Write a script to schedule daily database backups. |
+| 172 | [172-git-to-deploy-compiler](./172-git-to-deploy-compiler) | Automate the process of compiling and deploying code from Git. |
+| 173 | [173-system-config-version-control](./173-system-config-version-control) | Set up a script to manage version control for system configurations. |
+| 174 | [174-vm-provisioning-automation](./174-vm-provisioning-automation) | Create a script to automate the provisioning of virtual machines. |
+| 175 | [175-multi-server-service-config](./175-multi-server-service-config) | Automate the configuration of services across multiple servers. |
+| 176 | [176-log-analysis-reporting-automation](./176-log-analysis-reporting-automation) | Write a script to automate log file analysis and reporting. |
+| 177 | [177-unnecessary-file-cleanup-system](./177-unnecessary-file-cleanup-system) | Set up an automated system for cleaning up unnecessary files on a regular basis. |
+| 178 | [178-off-peak-system-update-scheduler](./178-off-peak-system-update-scheduler) | Create a script to schedule system updates during off-peak hours. |
+| 179 | [179-performance-monitor-optimization](./179-performance-monitor-optimization) | Automate system performance monitoring and optimization tasks. |
+| 180 | [180-multi-server-network-interface-config](./180-multi-server-network-interface-config) | Automate the configuration of network interfaces across multiple servers. |
+| 181 | [181-automated-security-scan-script](./181-automated-security-scan-script) | Write a script to automate security scans on all servers. |
+| 182 | [182-dns-record-update-automation](./182-dns-record-update-automation) | Automate the update of DNS records after system changes. |
+| 183 | [183-system-health-report-email-cron](./183-system-health-report-email-cron) | Set up a cron job to periodically send system health reports via email. |
+| 184 | [184-service-restart-after-update](./184-service-restart-after-update) | Write a script to automate service restarts after system updates. |
+| 185 | [185-post-deploy-config-verifier](./185-post-deploy-config-verifier) | Automate the process of verifying system configurations post-deployment. |
+| 186 | [186-fleet-patch-update-automation](./186-fleet-patch-update-automation) | Automate the process of deploying system patches and updates across a fleet of servers. |
+| 187 | [187-server-online-monitoring-system](./187-server-online-monitoring-system) | Create an automated monitoring system to ensure servers remain online. |
+| 188 | [188-dev-env-setup-automation](./188-dev-env-setup-automation) | Write a script to automate the setup of development environments. |
+| 189 | [189-ssl-cert-gen-deploy-automation](./189-ssl-cert-gen-deploy-automation) | Automate the generation and deployment of SSL certificates. |
+| 190 | [190-test-env-user-mgmt-script](./190-test-env-user-mgmt-script) | Write a script to automatically create and delete users for testing environments. |
+
+---
+
+### 📈 Performance & Analytics (191–204)
+
+| # | Folder | Description |
+|---|--------|-------------|
+| 191 | [191-disk-usage-check-cleanup-system](./191-disk-usage-check-cleanup-system) | Set up a system to periodically check disk usage and cleanup unnecessary files. |
+| 192 | [192-disk-io-performance-monitor](./192-disk-io-performance-monitor) | Automate the monitoring of disk I/O performance. |
+| 193 | [193-db-query-performance-optimizer](./193-db-query-performance-optimizer) | Write a script to track and optimize database query performance. |
+| 194 | [194-network-bandwidth-usage-monitor](./194-network-bandwidth-usage-monitor) | Set up a system to monitor network bandwidth usage. |
+| 195 | [195-cpu-memory-usage-analyzer](./195-cpu-memory-usage-analyzer) | Write a script to automate CPU and memory usage analysis. |
+| 196 | [196-resource-utilization-monitor-cron](./196-resource-utilization-monitor-cron) | Set up a cron job to monitor resource utilization. |
+| 197 | [197-performance-data-report-generator](./197-performance-data-report-generator) | Create a script to collect performance data and generate reports. |
+| 198 | [198-performance-based-system-optimizer](./198-performance-based-system-optimizer) | Automate system performance optimizations based on monitored data. |
+| 199 | [199-web-service-response-time-alerter](./199-web-service-response-time-alerter) | Monitor the response time of web services and send alerts when slow. |
+| 200 | [200-server-response-time-optimizer](./200-server-response-time-optimizer) | Write a script to monitor and optimize server response times. |
+| 201 | [201-performance-deviation-tracker](./201-performance-deviation-tracker) | Track performance changes and alert on significant deviations. |
+| 202 | [202-app-server-health-monitor](./202-app-server-health-monitor) | Set up a script to monitor application server health. |
+| 203 | [203-system-uptime-monitoring-alerter](./203-system-uptime-monitoring-alerter) | Monitor system uptime and send alerts when it is down. |
+| 204 | [204-Docker-installation](./204-Docker-installation) | Docker installation |
 
 ---
 
